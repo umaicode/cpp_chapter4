@@ -26,8 +26,8 @@ int main(void){
     cout << "*cp_a : " << *cp_a << "\t" << "*cpc_a : " <<  *cpc_a << endl<< endl;
 
 	int *pi = &i1;//에 대하여 pointer-to-constant, constan pointer, constant pointer-to-const에 대한 치환이 가능한지를 조사
-    //pi = pc_a;
-    pc_a = pi;
+    // pi = pc_a; // pc_a 는 상수라 했는데 pi한테 줘버리면 pi는 변경하려 할것이다.
+    pc_a = pi; // 가능한 이유를 알아야한다.
 
     //pi = pc_a;//const int*  형식의 값을 int*에 assign할 수 없다
     pi = cp_a;
@@ -51,7 +51,7 @@ int main(void){
     //*pc_a = *pc_b;
 
 	//constan pointer에 대하여 치환이 가능한지를 조사
-    //cp_a = pi; //식이 수정할 수 있는 lvalue여야 한다, 수정할 수 없다는 뜻
+    //cp_a = pi; //식이 수정할 수 있는 lvalue여야 한다, 수정할 수 없다는 뜻 // // 상수포인터는 항상 초기화시켜야 한다.  ex) int *const cp_a = &i3;
     //cp_a = pc_a;
     //cp_a = cpc_a;
     //cp_a = cp_b;
@@ -66,7 +66,7 @@ int main(void){
     cout << "*cp_a : " << *cp_a << endl << endl;
 	
 	//constant pointer-to-const에 대하여 치환이 가능한지를 조사
-    //cpc_a = pi;    
+    //cpc_a = pi;
     //cpc_a = pc_a;
     //cpc_a = cp_a;
     //cpc_a =cpc_b;

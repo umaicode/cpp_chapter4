@@ -98,31 +98,81 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="4-1.STREAM_IN_OUT.cpp" />
-    <ClCompile Include="4-2.const.cpp" />
-    <ClCompile Include="4-3.const_pointer2.cpp" />
-    <ClCompile Include="4-4.reference_variable.cpp" />
-    <ClCompile Include="4-5.return_by_reference.cpp" />
-    <ClCompile Include="4-7.타입CASTING.cpp" />
-    <ClCompile Include="4장-1.cincout.cpp" />
-    <ClCompile Include="4장-10.return by reference2.cpp" />
-    <ClCompile Include="4장-11.return by reference3.cpp" />
-    <ClCompile Include="4장-12.Cascade.cpp" />
-    <ClCompile Include="4장-13.const_cast.cpp" />
-    <ClCompile Include="4장-14.typeid_const_cast.cpp" />
-    <ClCompile Include="4장-15.const_int.cpp" />
-    <ClCompile Include="4장-16.DYNAMIC_CAST.cpp" />
-    <ClCompile Include="4장-17.ostream.cpp" />
-    <ClCompile Include="4장-18.Macro.cpp" />
-    <ClCompile Include="4장-2.cinout2.cpp" />
-    <ClCompile Include="4장-3.POINTER_ARRAY-203-401.cpp" />
-    <ClCompile Include="4장-3.POINTER_ARRAY.cpp" />
-    <ClCompile Include="4장-4.POINTER_ARRAY2.cpp" />
-    <ClCompile Include="4장-5.MULTIPLY.cpp" />
-    <ClCompile Include="4장-6.ReferenceExample.cpp" />
-    <ClCompile Include="4장-7.increase.cpp" />
-    <ClCompile Include="4장-8.return by value.cpp" />
-    <ClCompile Include="4장-9.return by reference.cpp" />
+    <ClCompile Include="4-1.STREAM_IN_OUT.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4-2.const.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4-3.const_pointer2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4-4.reference_variable.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4-5.return_by_reference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4-7.타입CASTING.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-1.cincout.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-10.return by reference2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-11.return by reference3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-12.Cascade.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-13.const_cast.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-14.typeid_const_cast.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-15.const_int.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-16.DYNAMIC_CAST.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-17.ostream.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-18.Macro.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-2.cinout2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-3.POINTER_ARRAY-203-401.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-3.POINTER_ARRAY.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-4.POINTER_ARRAY2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-5.MULTIPLY.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-6.ReferenceExample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-7.increase.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-8.return by value.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4장-9.return by reference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
