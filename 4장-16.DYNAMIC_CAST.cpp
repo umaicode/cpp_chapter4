@@ -31,7 +31,7 @@ void main(){
         pchild1->Print();
 
 	Child_2 *child2;
-	child2	= dynamic_cast<Child_2*> (p_2); // 강제로 끌어내리면 downcasting => 문제발생.
+	child2	= dynamic_cast<Child_2*> (p_2); // 강제로 끌어내리면 downcasting => 문제발생. 왜?
 	//child2 = p_2;
     if (NULL == child2)
         cout << "Child_2 == NULL" << endl;
