@@ -18,7 +18,4 @@ const int& maxInt(int a, int b){//a,b, return 값의 주소는 i, j와 상관 없음을 확�
     cout << "maxInt(int,int):: a = " << a << " b = " << b << endl;
     return (a>b) ? a : b; //a,b는 local variable이다 
     //local variable 또는 임시 변수 a, b의 주소를 반환하는 오류 메시지 발생
-    // 함수가 끝나면 a, b 는 stack 영역에 있어서 사라진다.
-    // 주소를 가리켜야 하는데 함수가 종료되면서 주소가 날라가서 k의 호출값은 빠다리가 난다.
-    // call by value로써 k는 값을 복사해서 들어간다.
 }

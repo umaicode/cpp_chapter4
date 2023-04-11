@@ -9,11 +9,9 @@ int main()
 {
    const int a = 100;
    const int *ptr = &a;
-   // increase(ptr); // 당연히 안됨 이유는?
-   //int* q = ptr;
    //*ptr += 1;
    //a++;
-   int *q = const_cast <int*> (ptr);//const_cast의 목적은 무엇인가?  [A] : ptr이 가리키는것은 포인터 그거에 대해서 const를 버리라는 의미.
+   int *q = const_cast <int*> (ptr);//const_cast의 목적은 무엇인가?
    *q += 1;
    cout << "a = " << a << endl;
    cout<<"*q = "<<*q << endl<< "increase(q) = " << increase(q)<<endl;
